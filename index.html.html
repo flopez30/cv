@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Currículum Vitae</title>
+    <!-- Agrega la fuente Montserrat desde Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Montserrat', sans-serif; /* Cambia la fuente aquí */
+        }
+        .container {
+            display: flex;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #E0E0E0;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .left-section {
+            width: 30%;
+            background-color: #0074D9;
+            padding: 20px;
+            color: #FFF;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .right-section {
+            width: 70%;
+            padding: 20px;
+        }
+        .profile-photo {
+            max-width: 100%;
+            border-radius: 50%;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                flex-direction: column;
+            }
+            .left-section, .right-section {
+                width: 100%;
+            }
+        }
+        
+
+        @media (min-width: 601px) and (max-width: 900px) {
+            .left-section {
+                width: 40%;
+            }
+            .right-section {
+                width: 60%;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <img src="https://lh3.googleusercontent.com/pw/AP1GczNaL21d37pKnwxgsr7-oRsN6z4RrSQ94cT0DpeZCcJEKy5ITn4Q3yy5nVp1JuSo-fqM2qBFfzQ8k5uvbeA7DUFTWDtGoWNQ60-1zsaILFnzI7jVtJo=w2400" alt="Mi Foto" class="profile-photo">
+            <h2>Perfil Profesional</h2>
+            <p>Soy un apasionado desarrollador de software con experiencia en tecnologías de front-end. Mi formación incluye un curso de desarrollo de software llamado "Misión TIC", que duró seis meses, y actualmente estoy estudiando Tecnología en Desarrollo de Software en el SENA. Mi objetivo es contribuir al mundo digital mediante la creación de soluciones innovadoras y funcionales.</p>
+            <h2>Objetivos</h2>
+            <p>Mi objetivo a corto plazo es aplicar mis habilidades en proyectos reales y seguir aprendiendo. A largo plazo, aspiro a convertirme en un desarrollador full-stack y contribuir al avance tecnológico.</p>
+            
+            
+        </div>
+        <div class="right-section">
+            <h1>Felipe López C.V</h1>
+            <h2>Educación</h2>
+            <ul>
+                <li><strong>Tecnología en Desarrollo de Software</strong></li>
+                <ul>
+                    <li><strong>SENA (Servicio Nacional de Aprendizaje)</strong></li>
+                    <li>Actualmente en curso</li>
+                    <li><strong>Curso en  Desarrollo de Software</strong></li>
+                <ul>
+                    <li><strong>MISION TIC 2022</strong></li>
+                    <li>6 Meses</li>
+                </ul>
+            </ul>
+           <h2>Habilidades</h2>
+            <ul>
+                <li>Lenguajes de Programación:
+                    <ul>
+                        <li>HTML</li>
+                        <li>JavaScript</li>
+                        <li>CSS</li>
+                        <li>GitHub (control de versiones)</li>
+                    </ul>
+                </li>
+                <li>Desarrollo Front-End:
+                    <ul>
+                        <li>Creación de interfaces de usuario atractivas y responsivas.</li>
+                        <li>Implementación de diseños utilizando HTML y CSS.</li>
+                        <li>Programación interactiva con JavaScript.</li>
+                    </ul>
+                </li>
+            </ul>
+            <h3>Habilidades Blandas</h3>
+            <ul>
+                <li>Trabajo en Equipo:
+                    <ul>
+                        <li>Colaboración efectiva con compañeros de equipo en proyectos.</li>
+                        <li>Participación en grupos de estudio y grupos de música.</li>
+                    </ul>
+                </li>
+                <li>Atención al Detalle:
+                    <ul>
+                        <li>Rigurosidad en la revisión de código y diseño.</li>
+                        <li>Enfoque en la calidad y precisión.</li>
+                    </ul>
+                </li>
+                <li>Motivación y Autodisciplina:
+                    <ul>
+                        <li>Compromiso con el aprendizaje continuo y la mejora constante.</li>
+                        <li>Capacidad para establecer metas y seguirlas.</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <!-- Resto del contenido del C.V. -->
+            <!-- Agrega aquí tus secciones adicionales como Educación, Experiencia, Proyectos, etc. -->
+        </div>
+    </div>
+</body>
+</html>
